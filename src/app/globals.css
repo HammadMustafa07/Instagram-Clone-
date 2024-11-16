@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -24,4 +24,428 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.body {
+  display: flex;
+  /* background-color: black; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------------------------------Bar-------------------------------------------------------- */
+
+
+.bar {
+  height: 100vh;
+  width: 230px;
+  background-color: black;
+  border-right: 1px solid rgb(46, 46, 46);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  /* background-color: red; */
+}
+
+.home-div {
+  height: 45px;
+  width: 205px;
+  background-color: black;
+  position: relative;
+  /* top: 5px; */
+  /* left: 10px; */
+  border: 0px solid black;
+  border-radius: 5px;
+  display: flex;
+  transition: 0.5s ease;
+}
+
+.home-div:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.home-div i {
+  font-size: 26px;
+  color: white;
+  margin-left: 13px;
+  position: relative;
+  top: 5px;
+}
+
+.home-div p {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin-left: 13px;
+  position: relative;
+  top: 11px;
+}
+
+
+.search-div {
+  height: 45px;
+  width: 226px;
+  background-color: black;
+  position: relative;
+  /* top: 15px;
+  left: 10px; */
+  border: 0px solid black;
+  border-radius: 5px;
+  display: flex;
+  transition-duration: 2s ease;
+}
+
+.search-div:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.search-div i {
+  font-size: 24px;
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 9px;
+}
+
+.search-div p {
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 14px;
+}
+
+.explore-div {
+  height: 45px;
+  width: 226px;
+  background-color: black;
+  position: relative;
+  /* top: 25px;
+  left: 10px; */
+  border: 0px solid black;
+  border-radius: 5px;
+  display: flex;
+  transition-duration: 2s ease;
+}
+
+.explore-div:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.explore-div i {
+  font-size: 24px;
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 9px;
+}
+
+.explore-div p {
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 14px;
+}
+
+.reels-div {
+  height: 45px;
+  width: 226px;
+  background-color: black;
+  position: relative;
+  /* top: 35px;
+  left: 10px; */
+  border: 0px solid black;
+  border-radius: 5px;
+  display: flex;
+  transition-duration: 2s ease;
+}
+
+.reels-div:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.reels-div i {
+  font-size: 24px;
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 9px;
+}
+
+.reels-div p {
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 14px;
+}
+
+.messages-div {
+  height: 45px;
+  width: 226px;
+  background-color: black;
+  position: relative;
+  /* top: 45px;
+  left: 10px; */
+  border: 0px solid black;
+  border-radius: 5px;
+  display: flex;
+  transition-duration: 2s ease;
+}
+
+.messages-div:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.messages-div i {
+  font-size: 24px;
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 9px;
+}
+
+.messages-div p {
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 14px;
+}
+
+.notifications-div {
+  height: 45px;
+  width: 226px;
+  background-color: black;
+  position: relative;
+  /* top: 55px;
+  left: 10px; */
+  border: 0px solid black;
+  border-radius: 5px;
+  display: flex;
+  transition-duration: 2s ease;
+}
+
+.notifications-div:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.notifications-div i {
+  font-size: 24px;
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 9px;
+}
+
+.notifications-div p {
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 14px;
+}
+
+.create-div {
+  height: 45px;
+  width: 226px;
+  background-color: black;
+  position: relative;
+  /* top: 65px;
+  left: 10px; */
+  border: 0px solid black;
+  border-radius: 5px;
+  display: flex;
+  transition-duration: 2s ease;
+}
+
+.create-div:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.create-div i {
+  font-size: 24px;
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 9px;
+}
+
+.create-div p {
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 14px;
+}
+
+.profile-div {
+  height: 45px;
+  width: 226px;
+  background-color: black;
+  position: relative;
+  /* top: 75px;
+  left: 10px; */
+  border: 0px solid black;
+  border-radius: 5px;
+  display: flex;
+  transition-duration: 2s ease;
+}
+
+.profile-div:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.profile-div .img-profile {
+  margin-left: 13px;
+  position: relative;
+  top: 9px;
+  border-radius: 50%;
+}
+
+.profile-div p {
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 14px;
+}
+
+.more-div {
+  height: 45px;
+  width: 226px;
+  background-color: black;
+  position: relative;
+  /* top: 75px;
+  left: 10px; */
+  border: 0px solid black;
+  border-radius: 5px;
+  display: flex;
+  transition-duration: 2s ease;
+}
+
+.more-div:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.more-div i {
+  font-size: 24px;
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 9px;
+}
+
+.more-div p {
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: #f5f5f5;
+  margin-left: 13px;
+  position: relative;
+  top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------<Bar/>-------------------------------------------------------- */
+/* ------------------------------------------<Post>-------------------------------------------------------- */
+
+.post-section {
+  height: 100vh;
+  width: 55vw;
+  background-color: black;
+}
+
+.story-div {
+  height: 150px;
+  width: 750px;
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ .story-div .div {
+   border: 3px solid pink; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid; /* Define the border width */
+  border-image: linear-gradient(45deg, #ff0077, #0077ff) 1;
+  border-radius: 10px;
+} 
+
+.div .img {
+  border-radius: 50%;
+}
+
+.story-div .one-profile {
+   height: 62px;
+   width: 62px;
+}
+
+.story-div .two-profile {
+  height: 62px;
+  width: 62px;
+}
+
+.story-div .three-profile {
+  height: 62px;
+  width: 62px;
+}
+
+.story-div .four-profile {
+  height: 62px;
+  width: 62px;
+}
+
+.story-div .five-profile {
+  height: 62px;
+  width: 62px;
+}
+
+.story-div .six-profile {
+  height: 62px;
+  width: 62px;
+}
+
+.story-div .seven-profile {
+  height: 62px;
+  width: 62px;
+}
+
+
+
+
