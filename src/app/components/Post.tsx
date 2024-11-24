@@ -26,7 +26,11 @@ export default function Post() {
             <div className="seven-profile div">
                 <Image className="img" src={profile} alt="profile" height={56} width={56}></Image>
             </div>
+            <div className="p-div-user-name">
+            <p>Hammad Abro</p>
         </div>
+        </div>
+        
        </div>
     )
 }
