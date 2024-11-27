@@ -58,7 +58,12 @@ body {
 .logo {
   height: 100px;
   width: 100px;
-  /* background-color: red; */
+}
+
+.logo-att {
+  margin-top: 30px;
+  position: relative;
+  left: -40px;
 }
 
 .home-div {
@@ -107,6 +112,7 @@ body {
   border-radius: 5px;
   display: flex;
   transition: 0.5s ease;
+  text-decoration: none;
 }
 
 .search-div:hover {
@@ -119,6 +125,7 @@ body {
   margin-left: 13px;
   position: relative;
   top: 9px;
+  text-decoration: none;
 }
 
 .search-div p {
@@ -128,6 +135,8 @@ body {
   margin-left: 13px;
   position: relative;
   top: 14px;
+  text-decoration: none;
+  text-decoration: none;
 }
 
 .explore-div {
@@ -414,6 +423,7 @@ body {
 .story-div .one-profile {
    height: 62px;
    width: 62px;
+   border-radius: 50%;
 }
 
 .story-div .two-profile {
