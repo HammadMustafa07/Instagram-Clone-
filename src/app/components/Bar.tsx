@@ -3,6 +3,7 @@
 import Image from "next/image";
 import logo from "../../../public/images/Logo.png";
 import profile from "../../../public/images/profile.jpg";
+import reelsicon from "../../../public/SVGs/reelsicon.png"
 
 export default function Bar() {
   function goToPage() {
@@ -27,7 +28,8 @@ export default function Bar() {
         <p>Explore</p>
       </div>
       <div className="reels-div">
-        <i className="bi bi-play-circle"></i>
+        {/* <i className="bi bi-play-circle"></i> */}
+        <Image className="img"  src={reelsicon} alt="reelsicon" height={30} width={30}></Image>
         <p>Reels</p>
       </div>
       <div onClick={goToPage} className="messages-div">

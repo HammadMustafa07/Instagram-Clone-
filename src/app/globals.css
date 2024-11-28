@@ -190,10 +190,16 @@ body {
   background-color: rgb(32, 32, 32);
 }
 
-.reels-div i {
+/* .reels-div i {
   font-size: 24px;
   color: #f5f5f5;
   margin-left: 13px;
+  position: relative;
+  top: 9px;
+} */
+.reels-div .img {
+  color: #f5f5f5;
+  margin-left: 10px;
   position: relative;
   top: 9px;
 }
@@ -391,76 +397,486 @@ body {
 /* ------------------------------------------<Bar/>-------------------------------------------------------- */
 /* ------------------------------------------<Post>-------------------------------------------------------- */
 
-.post-section {
-  height: 100vh;
-  width: 55vw;
-  background-color: black;
+.section-02 {
+   height: 100vh;
+   width: 750px;
+   background-color: black;
+}
+
+.story-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }
 
 .story-div {
-  height: 150px;
+  height: 80px;
   width: 750px;
-  background-color: red; 
+  background-color: black;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
 }
 
- .story-div .div {
-   border: 3px solid rgb(255, 60, 0); 
+.story-div div {
+  margin-top: 10px;
+}
+
+
+.story-1 {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ffc500, #DC00B2, #B02429);
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid; /* Define the border width */
-  /* border-image: linear-gradient(45deg, #ff0077, #0077ff) 1;  */
-  border-radius: 50px; 
+}
+
+.story-1 .img {
+  border-radius: 50%;
+  border: 2.5px solid black;
+}
+
+.story-2 {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ffc500, #DC00B2, #B02429);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-2 .img {
+  border-radius: 50%;
+  border: 2.5px solid black;
+}
+
+.story-3 {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ffc500, #DC00B2, #B02429);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-3 .img {
+  border-radius: 50%;
+  border: 2.5px solid black;
+}
+
+.story-4 {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ffc500, #DC00B2, #B02429);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-4 .img {
+  border-radius: 50%;
+  border: 2.5px solid black;
+}
+
+.story-5 {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ffc500, #DC00B2, #B02429);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-5 .img {
+  border-radius: 50%;
+  border: 2.5px solid black;
+}
+
+.story-6 {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ffc500, #DC00B2, #B02429);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-6 .img {
+  border-radius: 50%;
+  border: 2.5px solid black;
+}
+
+.story-7 {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ffc500, #DC00B2, #B02429);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-7 .img {
+  border-radius: 50%;
+  border: 2.5px solid black;
+}
+
+.story-8 {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ffc500, #DC00B2, #B02429);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-8 .img {
+  border-radius: 50%;
+  border: 2.5px solid black;
+}
+
+.para-div {
+  height: 20px;
+  display: flex;
+  background-color: black;
+  color: rgb(226, 226, 226);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  align-items: center;
+}
+
+/* .para-div p {
+} */
+
+.para-01 {
+  padding-left: 40px;
+}
+.para-02 {
+  padding-left: 48px;
+}
+.para-03 {
+  padding-left: 30px;
+}
+.para-04 {
+  padding-left: 32px;
+}
+.para-05 {
+  padding-left: 33px;
+}
+.para-06 {
+  padding-left: 28px;
+}
+.para-07 {
+  padding-left: 25px;
+}
+.para-08 {
+  padding-left: 25px;
+}
+
+/* -------------------------------------Post div  */
+.post-div {
+  height: 510px;
+  width: 100;
+  background-color: black;
+}
+
+.post-heading-div {
+  height: 50px;
+  width: 400px;
+  background-color: black;
+  margin-left: 140px;
+  position: relative;
+  top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.img-div-post-profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ffc500, #DC00B2, #B02429);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.img-div-post-profile .img {
+  border-radius: 50%;
+  border: 2.5px solid black;
 } 
 
-.div .img {
+.post-heading-div p {
+  color: rgb(235, 235, 235);
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.post-heading-div span {
+  color: grey;
+}
+
+.post {
+  height: 450px;
+  width: 400px;
+  background-color: black;
+  margin-top: 40px;
+  margin-left: 139px;
+  border-radius: 10px;
+}
+
+.post .img {
+  border-radius: 5px;
+  border: 1px solid rgb(51, 51, 51);
+} 
+
+/* ----------------------------section 03 -------------------------------------------- */
+
+.section-03 {
+  background-color: black;
+  height: 100vh;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-account-div {
+  height: 50px;
+  width: 300px;
+  background-color: black;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  
+}
+
+.my-account-div .img {
   border-radius: 50%;
 }
 
-.story-div .one-profile {
-   height: 62px;
-   width: 62px;
-   border-radius: 50%;
+.my-account-div p {
+  color: rgb(236, 236, 236);
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 10px;
+  margin-top: 6px;
 }
 
-.story-div .two-profile {
-  height: 62px;
-  width: 62px;
+.my-account-div .span {
+  color: grey;
+  font-size: 13px;
+  margin-top: 5px;
 }
 
-.story-div .three-profile {
-  height: 62px;
-  width: 62px;
+.my-account-div .span2 {
+  color: rgb(22, 131, 255);
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 70px;
 }
 
-.story-div .four-profile {
-  height: 62px;
-  width: 62px;
+.suggestion-div {
+  height: 20px;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 50px;
+  background-color: black;
+  color: white;
+}
+.suggestion-div p {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(189, 189, 189);
 }
 
-.story-div .five-profile {
-  height: 62px;
-  width: 62px;
+.suggestion-div span {
+  margin-left: 115px;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
 }
 
-.story-div .six-profile {
-  height: 62px;
-  width: 62px;
+.suggestion-account-01 {
+  height: 50px;
+  width: 300px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  
 }
 
-.story-div .seven-profile {
-  height: 62px;
-  width: 62px;
+.suggestion-account-01 .img {
+  border-radius: 50%;
 }
 
-.p-div-user-name {
-  position: absolute;
-  top: 110px;
+.suggestion-account-01 p {
+  color: rgb(236, 236, 236);
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 10px;
+  margin-top: 6px;
 }
 
+.suggestion-account-01 .span {
+  color: grey;
+  font-size: 13px;
+  margin-top: 5px;
+}
 
+.suggestion-account-01 .span2 {
+  color: rgb(22, 131, 255);
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
 
+.suggestion-account-02 {
+  height: 50px;
+  width: 300px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  
+}
 
+.suggestion-account-02 .img {
+  border-radius: 50%;
+}
+
+.suggestion-account-02 p {
+  color: rgb(236, 236, 236);
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.suggestion-account-02 .span {
+  color: grey;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.suggestion-account-02 .span2 {
+  color: rgb(22, 131, 255);
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.suggestion-account-03 {
+  height: 50px;
+  width: 300px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  
+}
+
+.suggestion-account-03 .img {
+  border-radius: 50%;
+}
+
+.suggestion-account-03 p {
+  color: rgb(236, 236, 236);
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.suggestion-account-03 .span {
+  color: grey;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.suggestion-account-03 .span2 {
+  color: rgb(22, 131, 255);
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.suggestion-account-04 {
+  height: 50px;
+  width: 300px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  
+}
+
+.suggestion-account-04 .img {
+  border-radius: 50%;
+}
+
+.suggestion-account-04 p {
+  color: rgb(236, 236, 236);
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.suggestion-account-04 .span {
+  color: grey;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.suggestion-account-04 .span2 {
+  color: rgb(22, 131, 255);
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.suggestion-account-05 {
+  height: 50px;
+  width: 300px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  
+}
+
+.suggestion-account-05 .img {
+  border-radius: 50%;
+}
+
+.suggestion-account-05 p {
+  color: rgb(236, 236, 236);
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.suggestion-account-05 .span {
+  color: grey;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.suggestion-account-05 .span2 {
+  color: rgb(22, 131, 255);
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 85px;
+}
