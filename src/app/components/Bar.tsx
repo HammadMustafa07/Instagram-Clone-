@@ -6,9 +6,9 @@ import profile from "../../../public/images/profile.jpg";
 import reelsicon from "../../../public/SVGs/reelsicon.png"
 
 export default function Bar() {
-  function goToPage() {
-    window.location.href = '../pages/Chat'; // Add the target URL here
-  }
+  // function goToPage() {
+  //   window.location.href = '../pages/Chat'; // Add the target URL here
+  // }
 
   return (
     <div className="bar">
@@ -32,7 +32,7 @@ export default function Bar() {
         <Image className="img"  src={reelsicon} alt="reelsicon" height={30} width={30}></Image>
         <p>Reels</p>
       </div>
-      <div onClick={goToPage} className="messages-div">
+      <div className="messages-div">
         <i className="bi bi-messenger"></i>
         <p>Messages</p>
       </div>
