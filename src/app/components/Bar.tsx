@@ -10,24 +10,24 @@ export default function Bar() {
   //   window.location.href = '../pages/Chat'; // Add the target URL here
   // }
 
-  return (
-    <div className="bar">
-      <div className="logo">
-        <Image className="logo-att" src={logo} alt="logo" height={50} width={130} />
-      </div>
-      <div className="home-div">
-        <i className="bi bi-house-door-fill"></i>
-        <p>Home</p>
-      </div>
-      <div className="search-div">
-        <i className="bi bi-search"></i>
-        <p>Search</p>
-      </div>
-      <div className="explore-div">
-        <i className="bi bi-compass"></i>
-        <p>Explore</p>
-      </div>
-      <div className="reels-div">
+   return (
+     <div className="bar">
+       <div className="logo">
+         <Image className="logo-att" src={logo} alt="logo" height={50} width={130} />
+       </div>
+       <div className="home-div">
+         <i className="bi bi-house-door-fill"></i>
+         <p>Home</p>
+       </div>
+       <div className="search-div">
+         <i className="bi bi-search"></i>
+         <p>Search</p>
+       </div>
+       <div className="explore-div">
+         <i className="bi bi-compass"></i>
+         <p>Explore</p>
+       </div>
+       <div className="reels-div">
         {/* <i className="bi bi-play-circle"></i> */}
         <Image className="img"  src={reelsicon} alt="reelsicon" height={30} width={30}></Image>
         <p>Reels</p>

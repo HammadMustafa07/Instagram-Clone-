@@ -37,7 +37,7 @@ body {
 
 .body {
   display: flex;
-  /* background-color: black; */
+  background-color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
