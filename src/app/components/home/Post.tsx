@@ -1,14 +1,14 @@
 import Image from "next/image"
-import stefan from "../../../public/images/stefan.jpg" // -- profile 01
-import bmw from "../../../public/images/bmw.jpg" // -- profile 02
-import carexport from "../../../public/images/carexpert.jpg" // --profile 03
-import supra from "../../../public/images/supra.jpg" // --profile 04
-import nikkahfinder from "../../../public/images/nikkahfinder.jpg" // --profile 05
-import peter from "../../../public/images/peter.jpg"
-import hammad from "../../../public/images/hammad.jpg"
-import mercedes from "../../../public/images/mercedes.jpg"
-import post1 from "../../../public/images/post1.jpg"
-import profileislam from "../../../public/images/profileislam.jpg"
+import stefan from "../../../../public/images/stefan.jpg"
+import bmw from "../../../../public/images/bmw.jpg"
+import carexport from "../../../../public/images/carexpert.jpg"
+import supra from "../../../../public/images/supra.jpg"
+import nikkahfinder from "../../../../public/images/nikkahfinder.jpg"
+import peter from "../../../../public/images/peter.jpg"
+import hammad from "../../../../public/images/hammad.jpg"
+import mercedes from "../../../../public/images/mercedes.jpg"
+import post1 from "../../../../public/images/post1.jpg"
+import profileislam from "../../../../public/images/profileislam.jpg"
 
 
 export default function Post() {

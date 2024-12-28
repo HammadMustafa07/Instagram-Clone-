@@ -1,6 +1,6 @@
-import Bar from "@/app/components/Bar"
-import Post from "@/app/components/Post"
-import Followlist  from "./components/Followlist";
+import Bar from "@/app/components/home/Bar"
+import Post from "@/app/components/home/Post"
+import Followlist  from "./components/home/Followlist";
 
 export default function Home() {
   return (

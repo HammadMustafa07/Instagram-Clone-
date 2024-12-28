@@ -1,12 +1,12 @@
 
 
-export default function chat() {
-    // function goToPage() {
-    //   window.location.href = '../pages/chat'; // Add the target URL here
-    // }
+// export default function chat() {
+//     // function goToPage() {
+//     //   window.location.href = '../pages/chat'; // Add the target URL here
+//     // }
   
-    return (
-      <div></div>
-    );
-  }
+//     return (
+//       <div></div>
+//     );
+//   }
   

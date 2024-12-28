@@ -1,11 +1,10 @@
 import Image from "next/image"
-import profile from "../../../public/images/profile.jpg"
-import stefan from "../../../public/images/stefan.jpg"
-import carexport from "../../../public/images/carexpert.jpg"
-import nikkahfinder from "../../../public/images/nikkahfinder.jpg" 
-import peter from "../../../public/images/peter.jpg"
-import hammad from "../../../public/images/hammad.jpg"
-
+import profile from "../../../../public/images/profile.jpg"
+import stefan from "../../../../public/images/stefan.jpg"
+import carexport from "../../../../public/images/carexpert.jpg"
+import nikkahfinder from "../../../../public/images/nikkahfinder.jpg"
+import peter from "../../../../public/images/peter.jpg"
+import hammad from "../../../../public/images/hammad.jpg"
 export default function Followlist() {
     return (
         <div className="section-03">
